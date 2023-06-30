@@ -1,0 +1,53 @@
+*{
+  margin: 0;
+  padding: 0;
+  
+}
+.container {
+  
+    display: flex;
+    flex-direction: column;
+    background-color: aquamarine;
+    align-items: center;
+    margin-top: 25px;
+  }
+  
+  .list-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+
+  .list-container textarea {
+    margin-right: 10px;
+  }
+  
+  .compute-btn {
+    margin-bottom: 20px;
+  }
+  
+  .results-container {
+    width: 300px;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 4px;
+    visibility: hidden;
+    background-color: aqua;
+  }
+  
+  h3 {
+    margin-bottom: 10px;
+  }
+  
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+  }
+  
+  li {
+    margin-bottom: 5px;
+  }
+  
